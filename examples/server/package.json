@@ -1,0 +1,22 @@
+{
+  "name": "ebay-items-react-widget-server",
+  "version": "1.0.0",
+  "description": "An example express server for ebay-items-react-widget",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "eBay",
+    "eBay Items React Widget"
+  ],
+  "author": "Lokesh Rishi",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cors": "^2.8.5",
+    "ebay-oauth-nodejs-client": "^1.2.1",
+    "express": "^4.17.1",
+    "xss": "^1.0.8"
+  }
+}

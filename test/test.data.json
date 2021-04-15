@@ -1,0 +1,152 @@
+{
+    "NO_ITEMS": {
+        "href": "https://api.ebay.com/buy/browse/v1/item_summary/search?q=Testing&limit=30&offset=0",
+        "total": 0,
+        "limit": 30,
+        "offset": 0
+    },
+    "API_ERROR": {
+        "errors": [{
+            "errorId": 12001,
+            "domain": "API_BROWSE",
+            "category": "REQUEST",
+            "message": "The call must have a valid 'q', 'category_ids', 'charity_ids', 'epid' or 'gtin' query parameter."
+        }]
+    },
+    "FULL": {
+        "href": "https://api.ebay.com/buy/browse/v1/item_summary/search?q=asdf&limit=30&offset=0",
+        "total": 555666,
+        "next": "https://api.ebay.com/buy/browse/v1/item_summary/search?q=asdf&limit=30&offset=30",
+        "limit": 9,
+        "offset": 0,
+        "itemSummaries": [{
+                "itemId": "v1|123|0",
+                "title": "eBay Sammple Item 1",
+                "image": {
+                    "imageUrl": "https://i.ebayimg.com/thumbs/images/g/123/s-l225.jpg"
+                },
+                "price": {
+                    "value": "180.00",
+                    "currency": "USD"
+                },
+                "itemHref": "https://api.ebay.com/buy/browse/v1/item/v1%7C123%7C0",
+                "itemAffiliateWebUrl": "https://api.ebay.com/buy/browse/v1/item/v1%7C123%7C0?hash=item2183a03741%3Ag%3AmrAAAOSwLlVgIVjN&mkevt=1&mkcid=1&mkrid=711-53200-19255-0&campid=123&customid=456&toolid=10049",
+                "thumbnailImages": [{
+                    "imageUrl": "https://i.ebayimg.com/images/g/213/s-l1600.jpg"
+                }],
+                "itemWebUrl": "https://www.ebay.com/itm/123"
+            },
+            {
+                "itemId": "v1|456|0",
+                "title": "eBay Sample Item 2",
+                "image": {
+                    "imageUrl": "https://i.ebayimg.com/thumbs/images/g/456/s-l225.jpg"
+                },
+                "price": {
+                    "value": "4.49",
+                    "currency": "USD"
+                },
+                "itemHref": "https://api.ebay.com/buy/browse/v1/item/v1%7C456%7C0",
+                "itemAffiliateWebUrl": "https://api.ebay.com/buy/browse/v1/item/v1%7C456%7C0?hash=item2183a03741%3Ag%3AmrAAAOSwLlVgIVjN&mkevt=1&mkcid=1&mkrid=711-53200-19255-0&campid=123&customid=456&toolid=10049",
+                "thumbnailImages": [{
+                    "imageUrl": "https://i.ebayimg.com/images/g/456/s-l225.jpg"
+                }],
+                "itemWebUrl": "https://www.ebay.com/itm/456"
+            },
+            {
+                "itemId": "v1|789|0",
+                "title": "eBay Sample Item 3",
+                "image": {
+                    "imageUrl": "https://i.ebayimg.com/thumbs/images/g/789/s-l225.jpg"
+                },
+                "price": {
+                    "value": "12.99",
+                    "currency": "USD"
+                },
+                "itemHref": "https://api.ebay.com/buy/browse/v1/item/v1%7C789%7C0",
+                "itemAffiliateWebUrl": "https://api.ebay.com/buy/browse/v1/item/v1%7C456%7C0?hash=item2183a03741%3Ag%3AmrAAAOSwLlVgIVjN&mkevt=1&mkcid=1&mkrid=711-53200-19255-0&campid=123&customid=456&toolid=10049",
+                "thumbnailImages": [{
+                    "imageUrl": "https://i.ebayimg.com/images/g/789/s-l1600.jpg"
+                }],
+                "itemWebUrl": "https://www.ebay.com/itm/789"
+            }
+        ]
+    },
+    "FULL_WITH_WARNINGS": {
+        "warnings": [{
+            "errorId": 12002,
+            "domain": "API_BROWSE",
+            "category": "REQUEST",
+            "message": "The priceCurrency filter value is invalid. For the valid values, refer to the API call documentation.",
+            "parameters": [{
+                "name": "fieldName",
+                "value": "priceCurrency"
+            }, {
+                "name": "filterValue",
+                "value": "USD"
+            }]
+        }, {
+            "errorId": 12012,
+            "domain": "API_BROWSE",
+            "category": "REQUEST",
+            "message": "A valid 'price' filter and a valid 'priceCurrency' filter is necessary to filter based on price."
+        }],
+        "href": "https://api.ebay.com/buy/browse/v1/item_summary/search?q=asdf&limit=30&offset=0",
+        "total": 555666,
+        "next": "https://api.ebay.com/buy/browse/v1/item_summary/search?q=asdf&limit=30&offset=30",
+        "limit": 9,
+        "offset": 0,
+        "itemSummaries": [{
+                "itemId": "v1|123|0",
+                "title": "eBay Sammple Item 1",
+                "image": {
+                    "imageUrl": "https://i.ebayimg.com/thumbs/images/g/123/s-l225.jpg"
+                },
+                "price": {
+                    "value": "180.00",
+                    "currency": "USD"
+                },
+                "itemHref": "https://api.ebay.com/buy/browse/v1/item/v1%7C123%7C0",
+                "itemAffiliateWebUrl": "https://api.ebay.com/buy/browse/v1/item/v1%7C123%7C0?hash=item2183a03741%3Ag%3AmrAAAOSwLlVgIVjN&mkevt=1&mkcid=1&mkrid=711-53200-19255-0&campid=123&customid=456&toolid=10049",
+                "thumbnailImages": [{
+                    "imageUrl": "https://i.ebayimg.com/images/g/213/s-l1600.jpg"
+                }],
+                "itemWebUrl": "https://www.ebay.com/itm/123"
+            },
+            {
+                "itemId": "v1|456|0",
+                "title": "eBay Sample Item 2",
+                "image": {
+                    "imageUrl": "https://i.ebayimg.com/thumbs/images/g/456/s-l225.jpg"
+                },
+                "price": {
+                    "value": "4.49",
+                    "currency": "USD"
+                },
+                "itemHref": "https://api.ebay.com/buy/browse/v1/item/v1%7C456%7C0",
+                "itemAffiliateWebUrl": "https://api.ebay.com/buy/browse/v1/item/v1%7C456%7C0?hash=item2183a03741%3Ag%3AmrAAAOSwLlVgIVjN&mkevt=1&mkcid=1&mkrid=711-53200-19255-0&campid=123&customid=456&toolid=10049",
+                "thumbnailImages": [{
+                    "imageUrl": "https://i.ebayimg.com/images/g/456/s-l225.jpg"
+                }],
+                "itemWebUrl": "https://www.ebay.com/itm/456"
+            },
+            {
+                "itemId": "v1|789|0",
+                "title": "eBay Sample Item 3",
+                "image": {
+                    "imageUrl": "https://i.ebayimg.com/thumbs/images/g/789/s-l225.jpg"
+                },
+                "price": {
+                    "value": "12.99",
+                    "currency": "USD"
+                },
+                "itemHref": "https://api.ebay.com/buy/browse/v1/item/v1%7C789%7C0",
+                "itemAffiliateWebUrl": "https://api.ebay.com/buy/browse/v1/item/v1%7C456%7C0?hash=item2183a03741%3Ag%3AmrAAAOSwLlVgIVjN&mkevt=1&mkcid=1&mkrid=711-53200-19255-0&campid=123&customid=456&toolid=10049",
+                "thumbnailImages": [{
+                    "imageUrl": "https://i.ebayimg.com/images/g/789/s-l1600.jpg"
+                }],
+                "itemWebUrl": "https://www.ebay.com/itm/789"
+            }
+        ]
+    }
+}
