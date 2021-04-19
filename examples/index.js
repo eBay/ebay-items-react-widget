@@ -40,7 +40,7 @@ const App = () => {
                 <EbayItemsWidget
                     carouselOptions={{
                         animation: 'slide',
-                        autoPlay: false,
+                        autoPlay: true,
                         interval: 5000,
                         indicators: false,
                         navButtonsAlwaysInvisible: false,
