@@ -25,6 +25,18 @@ eBay Items Widget is a fully customizable React component that allows you to sur
 
 This component provides a responsive UI experience with four different layouts:
 
+- **Single Item Carousel**: View for presenting data in a horizontally scrollable layout. You can swipe to move through a collection of items
+
+<h1 align="center">
+  <img src="https://user-images.githubusercontent.com/35708101/115278359-5b1cd980-a113-11eb-9c0a-82e77d74bf57.png" alt="Single item carousel view"/>
+</h1>
+
+- **Multiple Items Carousel**: Similar to carousel view with three items per carousel slide
+
+<h1 align="center">
+  <img src="https://user-images.githubusercontent.com/35708101/115278358-5a844300-a113-11eb-945b-b1ca40fdcbaa.png" alt="Multiple items caousel view"/>
+</h1>
+
 - **List**: Displays the items in a list
 
 <h1 align="center">
@@ -35,18 +47,6 @@ This component provides a responsive UI experience with four different layouts:
 
 <h1 align="center">
   <img src="https://user-images.githubusercontent.com/35708101/115278341-56f0bc00-a113-11eb-9ceb-9fa2ba88c641.png" alt="Gallery view"/>
-</h1>
-
-- **Carousel**: View for presenting data in a horizontally scrollable layout. You can swipe to move through a collection of items
-
-<h1 align="center">
-  <img src="https://user-images.githubusercontent.com/35708101/115278359-5b1cd980-a113-11eb-9c0a-82e77d74bf57.png" alt="Carousel view"/>
-</h1>
-
-- **Multiple items carousel**: Similar to carousel view with three items per carousel slide
-
-<h1 align="center">
-  <img src="https://user-images.githubusercontent.com/35708101/115278358-5a844300-a113-11eb-945b-b1ca40fdcbaa.png" alt="Multiple items caousel"/>
 </h1>
 
 It comes with a ready to use [example](./examples/index.js) and a [NodeJS express server](./examples/server/server.js) to bootstrap integration with [eBay Browse API](https://developer.ebay.com/api-docs/buy/browse/overview.html).
