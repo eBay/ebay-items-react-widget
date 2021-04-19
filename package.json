@@ -1,6 +1,6 @@
 {
   "name": "ebay-items-react-widget",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Lightweight, responsive and fully customizable component for React applications to surface a rich selection of items for buyers.",
   "main": "index.js",
   "repository": {
@@ -18,7 +18,13 @@
     "react-component",
     "react",
     "ebay",
-    "ebay-search"
+    "ebay-search",
+    "Search bar",
+    "image search",
+    "Browse API",
+    "carousel",
+    "gallery",
+    "list"
   ],
   "scripts": {
     "test": "jest",
@@ -26,10 +32,7 @@
     "postinstall": "cd examples/server && npm install",
     "lint": "eslint --fix .",
     "transpile": "babel src -d dist --copy-files",
-    "prepublishOnly": "npm run transpile",
-    "build": "webpack --mode production",
-    "deploy": "gh-pages -d examples/dist",
-    "publish-demo": "npm run build && npm run deploy"
+    "build": "npm run transpile && webpack --mode production"
   },
   "deprecated": false,
   "dependencies": {
